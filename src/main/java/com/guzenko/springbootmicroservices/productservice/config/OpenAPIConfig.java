@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class OpenAPIConfig {
     @Bean
-    public OpenAPI productServiceAOI() {
+    public OpenAPI productServiceAPI() {
         return new OpenAPI()
                 .info(new Info().title("Product Service API")
                         .description("This is the REST API for Product Service")
